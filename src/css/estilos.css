@@ -92,15 +92,15 @@ main .personagem .imagem {
   box-shadow: 0 0 10px #47ffc5;
 }
 
-.botoes .botao.codepixie .selecionado {
+.botoes .botao.codepixie.selecionado {
   box-shadow: 0 0 10px #9747ff;
 }
 
-.botoes .botao.hexblade .selecionado {
+.botoes .botao.hexblade.selecionado {
   box-shadow: 0 0 10px #ffa947;
 }
 
-.botoes .botao.neonpulse .selecionado {
+.botoes .botao.neonpulse.selecionado {
   box-shadow: 0 0 10px #e4309a;
 }
 
