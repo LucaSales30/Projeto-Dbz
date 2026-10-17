@@ -1,0 +1,116 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNozluOaHOwTnkQdutS8t5l",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LucaSales30/Projeto-Dbz/blob/main/F/Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n"
+      ],
+      "metadata": {
+        "id": "E-92lpTU7WU1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "60_TaMHFR-_F"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Gestão de notas em python\n",
+        "\n",
+        "nota_1 = float(input(\"Digite A Nota: \"))\n",
+        "nota_2 = float(input(\"Digite A Nota: \"))\n",
+        "nota_3 = float(input(\"Digite A Nota: \"))\n",
+        "nota_4 = float(input(\"Digite A Nota: \"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-tDS0iX38Cvx",
+        "outputId": "23366a74-9b57-468f-908d-d86ab12bf4e9"
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite A Nota: 4.3\n",
+            "Digite A Nota: 2.5\n",
+            "Digite A Nota: 6.4\n",
+            "Digite A Nota: 5.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "33094112",
+        "outputId": "2e501184-05e7-4061-8629-f68df6274e43"
+      },
+      "source": [
+        "# Calcula a média das quatro notas\n",
+        "media = (nota_1 + nota_2 + nota_3 + nota_4) / 4\n",
+        "\n",
+        "# Define a situação usando a estrutura if/elif/else\n",
+        "if media >= 7.0:\n",
+        "    situacao = \"Aprovado\"\n",
+        "elif media >= 5.0:\n",
+        "    situacao = \"Recuperação\"\n",
+        "else:\n",
+        "    situacao = \"Reprovado\"\n",
+        "\n",
+        "# Exibe o resultado\n",
+        "print(f\"Média: {media:.2f}\")\n",
+        "print(f\"Situação: {situacao}\")"
+      ],
+      "execution_count": 45,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Média: 4.67\n",
+            "Situação: Reprovado\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
